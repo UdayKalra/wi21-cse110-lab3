@@ -79,7 +79,7 @@
 			<hr>
 				<h3>Frustrated Form</h3>
 				<h4>Don't Push My Buttons!</h4>
-				<form>
+				<form id="fun-form">
 					<fieldset>
 						<legend>Hopefully some form action will come to this when it's feeling better.</legend>
 						<input type="button" value="Don't Press Me"><br>
@@ -97,12 +97,56 @@
 						<input type="week"><br>
 						<input type="datetime-local"><br>
 						<input type="password"><br>
+						<textarea id="text-area" name="awesome-box" rows="4" 
+							cols="50">This is a text box, but it would appreciate if you did not type into it.</textarea>
+						<input list="no-touch" name="no-touch" id="no-touch">
+						<datalist id="no-touch">
+							<option value="I do not like being typed in.">
+							<option value="Why are you typing.">
+							<option value="Aaaaahhhh.">
+						</datalist>
+						 <label for="select">Do Not Select From Me:</label>
+						<select name="select" id="select">
+							<option value="optE">Not an Option</option>
+							<option value="optF">Do Not Even Think About It</option>
+							<option value="optG">You are cool!</option>
+							<option value="optH">This lab is rather long :)</option>
+						</select>
+						<button type="submit" form="fun-form" value="Submit">Take Me To The Top!</button>
 					</fieldset>
 				</form>
 			<hr>
+				<h3>Relative Time Requirement Per Lab</h3>
+				<table style="width:100%">
+					<colgroup>
+						<col span="2" style="background-color:green">
+						<col style="background-color:blue">
+					</colgroup>	
+					<caption>Recent Labs</caption>
+					<tr>
+						<th>Lab</th>
+						<th>Percent Time</th>
+					</tr>
+					<tr>
+						<td>Lab 1</td>
+						<td>10%</td>
+					</tr>
+					<tr>
+						<td>Lab 2</td>
+						<td>90%</td>
+					</tr>
+				</table>
+			<hr>
+			<template>
+				<p>We will appear later!</p>
+			</template>
+			<details>
+				<summary>How do I feel about you on my page?</summary>
+  				<p>Thank you for viewing my page</p>
+			</details>
+			<hr>
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnrArKzaokqfmFCTXPFc3EXS8E7efgCaeu_weOuDqhffgxXQ/viewform?embedded=true" 
 				width="640" height="403" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 		</main>
 		<footer>
 			<p>Thanks for coming by!</p>
