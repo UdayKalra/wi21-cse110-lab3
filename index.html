@@ -84,10 +84,6 @@
 						<legend>Hopefully some form action will come to this when it's feeling better.</legend>
 						<input type="button" value="Don't Press Me"><br>
 						<label>Don't check my box!</label><br>
-						<optgroup label="Don't open Me!!!">
-							<option value="optA">Don't select me!</option>
-							<option value="optB">Me neither!</option>
-						</optgroup>
 						<input type="date"><br>
 						<input type="text"><br>
 						<input type="tel"><br>
@@ -100,7 +96,7 @@
 						<textarea id="text-area" name="awesome-box" rows="4" 
 							cols="50">This is a text box, but it would appreciate if you did not type into it.</textarea>
 						<input list="no-touch" name="no-touch" id="no-touch">
-						<datalist id="no-touch">
+						<datalist id="data">
 							<option value="I do not like being typed in.">
 							<option value="Why are you typing.">
 							<option value="Aaaaahhhh.">
@@ -114,28 +110,32 @@
 						</select>
 						<button type="submit" form="fun-form" value="Submit">Take Me To The Top!</button>
 					</fieldset>
+					<optgroup label="Don't open Me!!!">
+						<option value="optA">Don't select me!</option>
+						<option value="optB">Me neither!</option>
+					</optgroup>
 				</form>
 			<hr>
-				<h3>Relative Time Requirement Per Lab</h3>
-				<table style="width:100%">
-					<colgroup>
-						<col span="2" style="background-color:green">
-						<col style="background-color:blue">
-					</colgroup>	
-					<caption>Recent Labs</caption>
-					<tr>
-						<th>Lab</th>
-						<th>Percent Time</th>
-					</tr>
-					<tr>
-						<td>Lab 1</td>
-						<td>10%</td>
-					</tr>
-					<tr>
-						<td>Lab 2</td>
-						<td>90%</td>
-					</tr>
-				</table>
+			<h3>Relative Time Requirement Per Lab</h3>
+			<table style="width:100%">
+				<colgroup>
+					<col span="2" style="background-color:green">
+				
+				</colgroup>	
+				<tr>
+					<th>Lab</th>
+					<th>Percent Time</th>
+				</tr>
+				<tr>
+					<td>Lab 1</td>
+					<td>10%</td>
+				</tr>
+				<tr>
+					<td>Lab 2</td>
+					<td>90%</td>
+				</tr>
+			</table>
+			<caption>What an amazing chart!</caption>
 			<hr>
 			<template>
 				<p>We will appear later!</p>
@@ -146,7 +146,7 @@
 			</details>
 			<hr>
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnrArKzaokqfmFCTXPFc3EXS8E7efgCaeu_weOuDqhffgxXQ/viewform?embedded=true" 
-				width="640" height="403" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				width="640" height="403"></iframe>
 		</main>
 		<footer>
 			<p>Thanks for coming by!</p>
