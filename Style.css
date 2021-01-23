@@ -1,0 +1,56 @@
+/* CSS for Main Page */
+body {
+	background-color: #add8e6; 
+}
+
+#fun-form {
+	border-style: solid;
+	border-color: green;
+	/* Absolute Unit */
+	border-width: 5px;
+	/* Relative Unit */
+	border-radius: 1em;
+}
+
+div.video {
+	margin: auto;
+	height: 20vh;
+	width: 100vw;
+	padding: 2vw;
+}
+
+div div {
+	border-style: solid;
+	border-color: #000;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+h3 + svg {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+figure > figcaption {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding bottom: 10px;
+	border-style: solid;
+	border-color: rgb(255,0,0);
+	border-height: 100%;
+}
+h3 ~ p {
+	border-style: solid;
+	border-color: rgba(0,255,0, 125);
+	border-height: 100%;
+}
+div.roboheader {
+	border-style: solid;
+	border-color: hsl(248,53%,58%);
+	border-height: 100%;
+}
+
+h4 { 	
+	color: hsla(248, 53%, 58%, 50);
+}
