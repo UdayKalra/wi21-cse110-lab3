@@ -6,6 +6,17 @@ body {
 	background-color: #add8e6; 
 }
 
+/* Media Query */
+@media screen and (max-width: 512px) {
+  * {
+    	color: red;
+  }
+}
+
+footer {
+	position: absolute;
+}
+
 #fun-form {
 	border-style: solid;
 	border-color: green;
@@ -13,6 +24,7 @@ body {
 	border-width: 5px;
 	/* Relative Unit */
 	border-radius: 1em;
+	max-width: 100%
 }
 
 div.video {
@@ -60,4 +72,40 @@ h4 {
 }
 h3 {
 	text-align: center;
+}
+p, details {
+	display: block;
+}
+h4:hover {
+	display: inline;
+}
+h3[class~="canvasBlock"] {
+	color: blue;
+}
+table {
+	min-width:100%; 
+}
+figure {
+	position: relative;
+}
+
+p:hover {
+	text-decoration: underline;
+}
+h1:active{
+	color: purple;
+}
+.container {
+	display: flex;
+}
+.item {
+	order: 0;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+.gContainer {
+	display: grid;
+	grid-gap: 10px 10px;
+	grid-auto-rows: minmax(50px, 100px);
+	grid-template-columns: repeat(2, 1fr)
 }
